@@ -1,1 +1,115 @@
-<h1 id="title"> Can Music Increase Focus?</h1>
+<html lang=en>
+<head>
+<style>
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:50px;
+    margin:0;
+    float:left;
+    color:maroon;
+}
+#description{
+    
+    font-size: 18px;    
+}
+
+body{
+    background-color: pink;
+    font-family: "Didot",serif;
+    padding-left: 55px;    
+}
+
+img {
+  width: 15%;
+  float: right;
+  z-index:-5;
+  position:relative; 
+}
+
+form{
+    background-color: orangered;
+    border: 5px solid;
+    border-color: rgb(56, 22, 80);
+    padding:17px;
+       
+}
+textarea{
+    width:100%;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    
+    <h1 id="title">Greatest Disney Classics❦</h1>
+    <br>
+    <p id="description"><em>A survey where you can tell us about your favourite Disney films.</em>   
+    </p>
+
+    <form id="survey-form">
+       <label id="name-label">Name:</label>
+        <input type="text" name="name" id="name" required placeholder="First Name"><br>
+        
+        <label id="email-label">Email:</label>
+         <input type="email" name="email" id="email" required placeholder="Email of Choice"><br>
+        
+         <label id="number-label">Age:</label>
+         <input type="number" name="number" id="number" required min="0" max="100" placeholder="Age"><br>
+       
+         
+         <br>
+         <label for="gender">Gender:</label><br>
+         <input type="radio" name="gender" value="male">Male<br>
+         <input type="radio" name="gender" value="female">Female<br>
+         <input type="radio" name="gender" value="other">Other
+         <br>
+
+
+        <br>
+         <label for="movies"><em>Whats your favourite Disney movie?</em></label>
+         <select id="dropdown" name="disney-movies">
+            <option value="nemo">Finding Nemo</option>
+           <option value="mulan">Mulan</option>
+           <option value="princessandthefrog">Princess and the Frog</option>
+           <option value="aladdin">Aladdin</option>
+           <option value="thelittlemermaid">The Little Mermaid</option>
+           <option value="pocahontas">Pocahontas</option>
+           <option value="thelionking">The Lion King</option>
+           <option value="frozen">Frozen</option>
+           <option value="toy-story">Toy Story</option>
+           <option value="aliceinwonderland">Alice in Wonderland</option>
+           <option value="other">Other</option>
+         </select>
+         <br>
+         
+       
+         <br>
+        <label for="remake"><em>Which movie had the best remake?</em></label><br>
+         <input type="checkbox" name="remake1" value="mulan"> Mulan<br>
+         <input type="checkbox" name="remake2" value="aliceinwonderland"> Alice in Wonderland<br>
+         <input type="checkbox" name="remake3" value="thelionking"> The Lion King
+        <br>
+         
+        
+         <br>
+         <label for="text">Any additional comments?</label>
+         <br>
+         
+         <textarea placeholder="Additional Comments"></textarea><br>
+         
+         <br>
+        <input type="submit" id="submit">  
+
+        <div id="img-div">
+        <img src="survey_images/mickeyminniemouse.jpg" alt="mickey and minnie mouse" id="img">  
+        <div>
+
+    </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+</body>
+
+</html>
